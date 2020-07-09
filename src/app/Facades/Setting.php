@@ -1,9 +1,9 @@
 <?php
 
-namespace SMATAR\Settings\App\Facades;
+namespace PREPR\Settings\App\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use SMATAR\Settings\App\SettingsHelper;
+use PREPR\Settings\App\SettingsHelper;
 
 class Setting extends Facade
 {

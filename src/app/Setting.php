@@ -1,6 +1,6 @@
 <?php
 
-namespace SMATAR\Settings\App;
+namespace PREPR\Settings\App;
 
 use Illuminate\Database\Eloquent\Model;
 

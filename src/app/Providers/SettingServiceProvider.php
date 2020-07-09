@@ -1,6 +1,6 @@
 <?php
 
-namespace SMATAR\Settings\App\Providers;
+namespace PREPR\Settings\App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

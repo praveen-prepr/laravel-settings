@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="laravel settings package">
-    <meta name="author" content="SMATAR">
+    <meta name="author" content="PREPR">
 
     <title>Settings | {{ \Settings::get('SITE_TITLE', 'Laravel Settings') }}</title>
 
@@ -80,7 +80,7 @@
             <!-- Left Side Of Navbar -->
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="https://github.com/SMATAR/laravel-settings" target="_blank">
+                    <a href="https://github.com/PREPR/laravel-settings" target="_blank">
                         <i class="fa fa-github" aria-hidden="true"></i> Documentation
                     </a>
                 </li>
