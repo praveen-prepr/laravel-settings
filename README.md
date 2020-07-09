@@ -14,7 +14,7 @@ Supports laravel >= 5.2
 Add the following to your composer file.
 
 `
-"praveen-osits/laravel-settings": "1.0"
+"praveen-osits/laravel-settings": "2.0"
 `
 
 or run the following command:
