@@ -1,5 +1,5 @@
 {
-  "name": "praveen-osits/laravel-settings",
+  "name": "prepr/laravel-settings",
   "description": "Simple Settings package for laravel application",
   "keywords": [
     "Laravel",
@@ -8,13 +8,13 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Saeed Matar",
-      "email": "eng.saeed.matar@gmail.com"
+      "name": "Praveen S",
+      "email": "praveen@prepr.org"
     }
   ],
   "autoload": {
     "psr-4": {
-      "SMATAR\\Settings\\": "src/"
+      "PREPR\\Settings\\": "src/"
     }
   },
   "minimum-stability": "stable",
@@ -24,10 +24,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "SMATAR\\Settings\\App\\Providers\\SettingServiceProvider"
+        "PREPR\\Settings\\App\\Providers\\SettingServiceProvider"
       ],
       "aliases": {
-        "Settings": "SMATAR\\Settings\\App\\Facades\\Setting"
+        "Settings": "PREPR\\Settings\\App\\Facades\\Setting"
       }
     }
   }
