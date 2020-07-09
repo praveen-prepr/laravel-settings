@@ -14,12 +14,12 @@ Supports laravel >= 5.2
 Add the following to your composer file.
 
 `
-"smatar/laravel-settings": "dev-master"
+"praveen-osits/laravel-settings": "1.0"
 `
 
 or run the following command:
 ```
-composer require smatar/laravel-settings
+composer require praveen-osits/laravel-settings
 ```
 
 2) config/app.php [no need for this step in laravel 5.5 because of packages auto discovery feature]
