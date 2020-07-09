@@ -1,7 +1,7 @@
 # Laravel Settings
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/smatar/laravel-settings.svg?style=flat-square)](https://packagist.org/packages/smatar/laravel-settings)
-[![Total Downloads](https://img.shields.io/packagist/dt/smatar/laravel-settings.svg?style=flat-square)](https://packagist.org/packages/smatar/laravel-settings)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/prepr/laravel-settings.svg?style=flat-square)](https://packagist.org/packages/prepr/laravel-settings)
+[![Total Downloads](https://img.shields.io/packagist/dt/prepr/laravel-settings.svg?style=flat-square)](https://packagist.org/packages/prepr/laravel-settings)
 
 A Laravel package that provides laravel applications settings module which needed in every application.
 
@@ -14,12 +14,12 @@ Supports laravel >= 5.2
 Add the following to your composer file.
 
 `
-"praveen-osits/laravel-settings": "2.0"
+"prepr/laravel-settings": "3.0"
 `
 
 or run the following command:
 ```
-composer require praveen-osits/laravel-settings
+composer require prepr/laravel-settings
 ```
 
 2) config/app.php [no need for this step in laravel 5.5 because of packages auto discovery feature]
@@ -29,7 +29,7 @@ add your new provider to the providers array:
 ```
 'providers' => [
     // ...
-   	\SMATAR\Settings\App\Providers\SettingServiceProvider::class
+   	\PREPR\Settings\App\Providers\SettingServiceProvider::class
     // ...
   ],
 ```
@@ -39,7 +39,7 @@ add your new provider to the providers array:
 ```
 'aliases' => [
 	// ...
-	'Settings' => \SMATAR\Settings\App\Facades\Setting::class
+	'Settings' => \PREPR\Settings\App\Facades\Setting::class
     // ...
 ],
 ```
@@ -148,10 +148,5 @@ such as:
 
 uploads/settings/site_logo.png
 
-## demo
-
-the demo site:
-
-[http://settings.esolution-inc.com/](http://settings.esolution-inc.com/)
 
 ===================================
